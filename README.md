@@ -1,5 +1,25 @@
 # NgWorkspace05Nx
 
+## Live coding tasks
+
+- Create button lib with component
+- Create input lib with component
+- Create search lib with component (depends on button and input libs)
+- Apply proper tags and setup module boundaries
+- Create example app that uses libs created above
+
+## Homework
+
+- Create checkbox lib with component
+- Checkbox component should render simple `input[type=checkbox]`
+- Checkbox component should allow to project HTML into it and render it on the right side of `input`
+- Checkbox component should have `disabled` input
+- Checkbox component should have `checked` input
+- Checkbox component should have `checkedChange` output
+- Replace plain checkbox with checkbox component in search component lib
+
+---
+
 This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
