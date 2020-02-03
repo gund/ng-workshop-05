@@ -1,0 +1,9 @@
+<label>
+	<input
+		[disabled]="isDisabled"
+		type="checkbox"
+		[checked]="checked"
+		(change)="checkedChange.emit($event)"
+	/>
+	<ng-content></ng-content>
+</label>

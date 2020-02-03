@@ -1,9 +1,18 @@
 <p>Search:</p>
 
 <ng-workspace05-nx-input></ng-workspace05-nx-input>
-<label>
-  <input type="checkbox" [(ngModel)]="isGlobalSearch" /> Global search?
-</label>
-<ng-workspace05-nx-button>Submit</ng-workspace05-nx-button>
+<br>
+<br>
+<div>
+	<ng-workspace05-nx-checkbox [checked]="isGlobalSearch" (checkedChange)="isGlobalSearch = !isGlobalSearch">Label for checkbox</ng-workspace05-nx-checkbox>
 
-<p>Is global search: {{ isGlobalSearch }}</p>
+	<p>Is global search: {{ isGlobalSearch }}</p>
+</div>
+<br>
+<br>
+<div>
+	<ng-workspace05-nx-checkbox isDisabled="true">Disabled checkbox</ng-workspace05-nx-checkbox>
+</div>
+<br>
+<br>
+<ng-workspace05-nx-button>Submit</ng-workspace05-nx-button>
