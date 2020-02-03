@@ -10,5 +10,22 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "button": {
+      "tags": ["type:atom"]
+    },
+    "input": {
+      "tags": ["type:atom"]
+    },
+    "search": {
+      "tags": ["type:molecule"]
+    },
+    "example": {
+      "tags": []
+    },
+    "example-e2e": {
+      "tags": [],
+      "implicitDependencies": ["example"]
+    }
+  }
 }
