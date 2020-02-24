@@ -5,9 +5,10 @@ import { ButtonModule } from '@ng-workspace05-nx/button';
 import { InputModule } from '@ng-workspace05-nx/input';
 
 import { SearchComponent } from './search/search.component';
+import {CheckboxModule} from '@ng-workspace05-nx/checkbox';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, ButtonModule, InputModule],
+  imports: [CommonModule, FormsModule, ButtonModule, InputModule, CheckboxModule],
   exports: [SearchComponent],
   declarations: [SearchComponent]
 })

@@ -11,4 +11,8 @@ export class SearchComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  changeInput() {
+    console.log('changed');
+  }
 }

@@ -26,6 +26,9 @@
     "example-e2e": {
       "tags": [],
       "implicitDependencies": ["example"]
+    },
+    "checkbox": {
+      "tags": []
     }
   }
 }
