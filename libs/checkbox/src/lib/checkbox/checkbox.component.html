@@ -1,0 +1,11 @@
+<div>
+  <label>
+    <input
+      type="checkbox"
+      [disabled]="isDisabled"
+      [checked]="isChecked"
+      (change)="toggleCheck()"
+    >
+    <ng-content></ng-content>
+  </label>
+</div>
