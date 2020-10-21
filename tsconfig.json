@@ -18,7 +18,8 @@
     "paths": {
       "@ng-workspace05-nx/button": ["libs/button/src/index.ts"],
       "@ng-workspace05-nx/input": ["libs/input/src/index.ts"],
-      "@ng-workspace05-nx/search": ["libs/search/src/index.ts"]
+      "@ng-workspace05-nx/search": ["libs/search/src/index.ts"],
+      "@ng-workspace05-nx/checkbox": ["libs/checkbox/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
